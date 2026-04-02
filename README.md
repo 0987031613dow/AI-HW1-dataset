@@ -19,15 +19,15 @@ A self-collected image classification dataset of TFT (Teamfight Tactics) champio
 
 ## Data Type
 
-- **Format:** RGB images (JPEG/PNG)
-- **Input size used for training:** 224 × 224 pixels
+- **Format:** RGB images (PNG), non-fixed size
+- **Input size used for training:** 224 × 224 pixels (resized at training time)
 - **Labels:** Folder name = class name (one folder per champion)
 
 ## Collection Process
 
-Images were captured via manual screenshotting during live TFT gameplay and from publicly available game footage. Each champion was captured across multiple game states (different board positions, augment effects, and lighting) to introduce natural intra-class variation.
+Images were collected by screen-recording the author's own TFT gameplay sessions. Individual champion images were then manually clipped from the recordings, with bounding regions adjusted by hand to tightly crop around each champion unit.
 
-Images were manually reviewed to remove corrupted or mislabeled samples.
+Each champion was captured across multiple game states (different board positions, star levels, equipped items, and attack animations) to introduce natural intra-class variation. Images were manually reviewed and organized into per-class folders.
 
 **Hardware/Software:** Standard gaming PC, Riot Games TFT client (PC).
 
@@ -44,6 +44,6 @@ new_dataset/
 
 ## Notes
 
-- One class (Thresh, 12 images) was excluded due to insufficient samples.
 - The dataset is moderately imbalanced (Zilean: 32, Mel: 57).
-- All images are original screenshots; no images were sourced from existing public datasets.
+- All images are original screen recordings; no images were sourced from existing public datasets.
+- Image filenames follow the convention \`ClassName_001.png\`, \`ClassName_002.png\`, etc.
