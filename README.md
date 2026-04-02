@@ -42,6 +42,14 @@ new_dataset/
 └── Zilean/
 ```
 
+## Examples
+
+One sample image per class (all captured from in-game screenshots):
+
+| Azir | Mel | T-Hex | TahmKench | Zilean |
+|------|-----|-------|-----------|--------|
+| ![Azir](new_dataset/Azir/Azir_001.png) | ![Mel](new_dataset/Mel/Mel_001.png) | ![T-Hex](new_dataset/T-Hex/T-Hex_001.png) | ![TahmKench](new_dataset/TahmKench/TahmKench_001.png) | ![Zilean](new_dataset/Zilean/Zilean_001.png) |
+
 ## Notes
 
 - The dataset is moderately imbalanced (Zilean: 32, Mel: 57).
