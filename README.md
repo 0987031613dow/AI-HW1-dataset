@@ -1,6 +1,6 @@
 # TFT Champion Image Dataset
 
-**Course:** Undergraduate AI Capstone, NYCU Spr2026
+**Course:** Artificial Intelligence NYCU Spr2026
 **Project:** #1 — Dataset Construction and Analysis
 **Student ID:** 313605010
 
