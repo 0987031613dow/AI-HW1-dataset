@@ -1,7 +1,7 @@
 # TFT Champion Image Dataset
 
 **Course:** Artificial Intelligence NYCU Spr2026<br>
-**Project:** #1 — Dataset Construction and Analysis<br>
+**Project:** #1<br>
 **Student ID:** 313605010
 
 ## Overview
